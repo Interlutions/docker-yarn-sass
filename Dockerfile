@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM composer:latest
 RUN apk add --no-cache \
   git yarn curl nodejs nodejs-npm \
   && yarn global add gulp gulp-cli node-sass \
